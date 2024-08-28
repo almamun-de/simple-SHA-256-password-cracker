@@ -9,3 +9,6 @@ This is a simple Python script that attempts to crack a given SHA-256 hashed pas
    ```bash
    git clone https://github.com/almamun-de/simple-SHA-256-password-cracker.git
    cd simple-SHA-256-password-cracker
+
+Run the script:
+python3 password_cracker_sha256.py
