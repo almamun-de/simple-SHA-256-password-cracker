@@ -14,13 +14,3 @@ def crack_password_sha256(hash, dictionary_file):
                 return word
     return None
 
-if __name__ == "__main__":
-    hashed_password = input("Enter the SHA-256 hashed password: ")
-    dictionary = input("Enter the path to the dictionary file: ")
-
-    result = crack_password_sha256(hashed_password, dictionary)
-
-    if result:
-        print(f"Password found: {result}")
-    else:
-        print("Password not found")
